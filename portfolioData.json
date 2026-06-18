@@ -1,0 +1,90 @@
+{
+  "hero": {
+    "eyebrow": "Computer Science at UC Santa Cruz",
+    "headline": "Nagatanmayee Gunukula",
+    "subheadline": "Let's build something thoughtful.",
+    "bio": "I am a computer science student, Oracle ACE Pro, and builder across data science, cloud software, automation, AI research, and full‑stack product experiences. I like turning messy workflows into scalable systems that feel clear, useful, and fast.",
+    "tags": ["Cloud Engineering", "AI Research", "Automation"],
+    "buttons": [
+      {"text": "View Projects", "href": "#projects"},
+      {"text": "Contact Me", "href": "mailto:nagatanmayee.g@gmail.com"}
+    ]
+  },
+  "experience": [
+    {
+      "date": "Current",
+      "role": "Data Science Intern",
+      "organization": "Gramener",
+      "description": "Applying data science, analytics, and product‑minded problem solving to turn complex datasets into clear technical insights and useful decision‑support workflows."
+    },
+    {
+      "date": "Current",
+      "role": "Junior Consultant",
+      "organization": "180 Degrees Consulting - Santa Cruz",
+      "description": "Supporting mission‑driven consulting work through research, analysis, strategy, and client‑facing recommendations for social impact organizations."
+    },
+    {
+      "date": "May 2024 - Apr 2025",
+      "role": "Cloud Software Engineering Intern",
+      "organization": "Nela IT Solutions - San Ramon, CA",
+      "description": "Automated AWS‑based cloud data workflows with Python and Oracle SQL, improving processing accuracy, scalability, and cloud resource efficiency."
+    },
+    {
+      "date": "Mar 2026 - Present",
+      "role": "Undergraduate Researcher",
+      "organization": "AIEA Lab - Santa Cruz, CA",
+      "description": "Engineered a local Neuro‑Symbolic Logic‑LM framework with Python, LangChain, and SWI‑Prolog for deterministic queries, while deploying CNN workflows through Kubernetes PVCs and self‑terminating Jobs."
+    },
+    {
+      "date": "Apr 2026 - Present",
+      "role": "Growth and SWE Automation Intern",
+      "organization": "Kiku - San Francisco, CA",
+      "description": "Built an end‑to‑end Python data pipeline for outbound sales infrastructure, scaled lead generation by 3x, and redesigned the core website UI in Framer for early onboarding tests."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Ticket Demand & Scarcity ML Pipeline",
+      "description": "Automated an end‑to‑end predictive pipeline with Random Forest modeling on multi‑modal API data, then designed a custom Demand‑to‑Supply Ticket Scarcity Index across five major California arenas.",
+      "technologies": ["Python", "Scikit‑Learn", "Pandas", "REST APIs"],
+      "tag": "ML Pipeline"
+    },
+    {
+      "title": "Fault‑Tolerant F1 Telemetry Engine",
+      "description": "Built a raw TCP/UDP socket telemetry replication engine that processed 5,000+ events per second with microsecond latency and used a custom Write‑Ahead Log for zero‑data‑loss node recovery.",
+      "technologies": ["Python", "TCP/UDP", "WAL", "Database Internals"],
+      "tag": "Distributed Systems"
+    }
+  ],
+  "skills": {
+    "languages": ["Java", "Python", "C/C++", "SQL", "Postgres", "Snowflake", "NumPy", "pandas", "scikit‑learn"],
+    "frameworks": ["React", "Node.js", "Next.js", "FastAPI", "WordPress"],
+    "platforms": ["Git", "Docker", "AWS", "OCI", "Linux", "Figma", "Framer", "VS Code"]
+  },
+  "certifications": [
+    {"year": 2026, "title": "Oracle ACE Pro Award", "description": "Oracle Corporation recognition for technical contribution and community impact."},
+    {"year": 2025, "title": "OCI AI Foundations Associate", "description": "AI services, applied cloud AI, and responsible AI foundations."},
+    {"year": 2023, "title": "OCI Multicloud Architect", "description": "Cloud architecture and multicloud platform strategy."},
+    {"year": 2023, "title": "Snowflake Hands‑On Essentials", "description": "Practical data‑platform training across Snowflake workflows and cloud data fundamentals."}
+  ],
+  "leadership": [
+    {
+      "date": "Current",
+      "role": "Executive Director",
+      "organization": "Senior Connect (non‑profit)",
+      "description": "Leading a nonprofit focused on connection, access, and support for senior communities through operations, outreach, partnerships, and mission‑driven program development."
+    },
+    {
+      "date": "Apr 2026 - Present",
+      "role": "Community Operations Intern",
+      "description": "Launched a core web platform in Framer and architected a Python‑based CRM ingestion pipeline that automated founder identification, multi‑channel prospecting, and qualification logic for early user acquisition."
+    }
+  ],
+  "contact": {
+    "email": "nagatanmayee.g@gmail.com",
+    "phone": "925-984-5990",
+    "linkedin": "https://www.linkedin.com/in/nagatanmayee-gunukula-42b4aa254/",
+    "github": "https://github.com/NagaGun"
+  },
+  "footer": "Designed and built for Nagatanmayee Gunukula."
+}
