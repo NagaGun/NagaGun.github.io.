@@ -321,7 +321,7 @@ main,
 .hero-copy {
   border: 1px solid var(--line);
   border-radius: 8px;
-  padding: clamp(26px, 4vw, 44px);
+  padding: clamp(20px, 3vw, 36px);
   background: rgba(7, 11, 31, 0.5);
   box-shadow: var(--shadow);
   backdrop-filter: blur(18px);
@@ -346,7 +346,7 @@ p {
 h1 {
   max-width: 680px;
   margin-bottom: 24px;
-  font-size: clamp(2.75rem, 4.9vw, 5rem);
+  font-size: clamp(2rem, 3.5vw, 3.6rem);
   line-height: 0.98;
 }
 
@@ -434,7 +434,7 @@ h3 {
 .portrait-wrap::before {
   position: absolute;
   z-index: 1;
-  width: min(410px, 82vw);
+  width: min(300px, 70vw);
   aspect-ratio: 1;
   content: "";
   border-radius: 50%;
@@ -445,7 +445,7 @@ h3 {
 .portrait {
   position: relative;
   z-index: 5;
-  width: min(410px, 82vw);
+  width: min(300px, 70vw);
   aspect-ratio: 1;
   border: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 50%;
@@ -474,13 +474,13 @@ h3 {
 }
 
 .orbit-one {
-  width: 500px;
-  height: 500px;
+  width: 380px;
+  height: 380px;
 }
 
 .orbit-two {
-  width: 360px;
-  height: 360px;
+  width: 270px;
+  height: 270px;
   animation-duration: 22s;
   animation-direction: reverse;
 }
