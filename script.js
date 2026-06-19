@@ -1,7 +1,6 @@
 const navToggle = document.querySelector(".nav-toggle");
 const navLinks = [...document.querySelectorAll(".site-nav a")];
 const sections = [...document.querySelectorAll("main section[id]")];
-const timeline = document.querySelector("#experienceTimeline");
 const canvas = document.querySelector("#auroraCanvas");
 const ctx = canvas.getContext("2d");
 
@@ -29,7 +28,12 @@ const revealObserver = new IntersectionObserver(
   { threshold: 0.18 }
 );
 
-document.querySelectorAll(".reveal").forEach((item) => revealObserver.observe(item));
+window.initDynamicContent = function() {
+  document.querySelectorAll(".reveal:not(.observed)").forEach((item) => {
+    item.classList.add("observed");
+    revealObserver.observe(item);
+  });
+};
 
 const navObserver = new IntersectionObserver(
   (entries) => {
@@ -45,27 +49,38 @@ const navObserver = new IntersectionObserver(
 
 sections.forEach((section) => navObserver.observe(section));
 
-document.querySelectorAll("[data-scroll-timeline]").forEach((button) => {
-  button.addEventListener("click", () => {
-    const direction = Number(button.dataset.scrollTimeline);
-    timeline.scrollBy({ left: direction * 380, behavior: "smooth" });
-  });
-});
+window.initInteractions = function() {
 
-document.querySelectorAll(".tilt-card").forEach((card) => {
-  card.addEventListener("pointermove", (event) => {
-    const rect = card.getBoundingClientRect();
-    const x = event.clientX - rect.left;
-    const y = event.clientY - rect.top;
-    const rotateX = ((y / rect.height) - 0.5) * -8;
-    const rotateY = ((x / rect.width) - 0.5) * 8;
-    card.style.transform = `perspective(900px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
+  document.querySelectorAll("[data-scroll-timeline]:not(.bound)").forEach((button) => {
+    button.classList.add("bound");
+    button.addEventListener("click", () => {
+      const timeline = document.querySelector("#experienceTimeline");
+      if (!timeline) return;
+      const direction = Number(button.dataset.scrollTimeline);
+      timeline.scrollBy({ left: direction * 380, behavior: "smooth" });
+    });
   });
 
-  card.addEventListener("pointerleave", () => {
-    card.style.transform = "";
+  document.querySelectorAll(".tilt-card:not(.bound)").forEach((card) => {
+    card.classList.add("bound");
+    card.addEventListener("pointermove", (event) => {
+      const rect = card.getBoundingClientRect();
+      const x = event.clientX - rect.left;
+      const y = event.clientY - rect.top;
+      const rotateX = ((y / rect.height) - 0.5) * -8;
+      const rotateY = ((x / rect.width) - 0.5) * 8;
+      card.style.transform = `perspective(900px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
+    });
+
+    card.addEventListener("pointerleave", () => {
+      card.style.transform = "";
+    });
   });
-});
+};
+
+// Initial bind for hardcoded elements
+window.initDynamicContent();
+window.initInteractions();
 
 let particles = [];
 let width = 0;

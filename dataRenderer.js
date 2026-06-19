@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderCertifications(data.certifications);
     renderLeadership(data.leadership);
     renderContact(data.contact);
+    if (typeof window.initDynamicContent === 'function') window.initDynamicContent();
+    if (typeof window.initInteractions === 'function') window.initInteractions();
   } catch (e) {
     console.error('Data renderer error:', e);
   }
