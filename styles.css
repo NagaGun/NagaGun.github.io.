@@ -434,7 +434,7 @@ h3 {
 .portrait-wrap::before {
   position: absolute;
   z-index: 1;
-  width: min(300px, 70vw);
+  width: min(410px, 82vw);
   aspect-ratio: 1;
   content: "";
   border-radius: 50%;
@@ -445,7 +445,7 @@ h3 {
 .portrait {
   position: relative;
   z-index: 5;
-  width: min(300px, 70vw);
+  width: min(410px, 82vw);
   aspect-ratio: 1;
   border: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 50%;
@@ -474,13 +474,13 @@ h3 {
 }
 
 .orbit-one {
-  width: 380px;
-  height: 380px;
+  width: 500px;
+  height: 500px;
 }
 
 .orbit-two {
-  width: 270px;
-  height: 270px;
+  width: 360px;
+  height: 360px;
   animation-duration: 22s;
   animation-direction: reverse;
 }
