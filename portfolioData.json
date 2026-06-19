@@ -63,10 +63,31 @@
     "platforms": ["Git", "Docker", "AWS", "OCI", "Linux", "Figma", "Framer", "VS Code"]
   },
   "certifications": [
-    {"year": 2026, "title": "Oracle ACE Pro Award", "description": "Oracle Corporation recognition for technical contribution and community impact."},
-    {"year": 2025, "title": "OCI AI Foundations Associate", "description": "AI services, applied cloud AI, and responsible AI foundations."},
-    {"year": 2023, "title": "OCI Multicloud Architect", "description": "Cloud architecture and multicloud platform strategy."},
-    {"year": 2023, "title": "Snowflake Hands‑On Essentials", "description": "Practical data‑platform training across Snowflake workflows and cloud data fundamentals."}
+    {
+      "year": 2026,
+      "title": "Oracle ACE Pro Award",
+      "description": "Oracle Corporation recognition for technical contribution and community impact."
+    },
+    {
+      "year": 2025,
+      "title": "OCI AI Foundations Associate",
+      "description": "AI services, applied cloud AI, and responsible AI foundations."
+    },
+    {
+      "year": 2023,
+      "title": "OCI Multicloud Architect",
+      "description": "Cloud architecture and multicloud platform strategy."
+    },
+    {
+      "year": 2023,
+      "title": "Snowflake Hands‑On Essentials",
+      "description": "Practical data‑platform training across Snowflake workflows and cloud data fundamentals."
+    },
+    {
+      "year": "More",
+      "title": "Additional Certifications",
+      "description": "Reserved for the extra certifications from your LinkedIn profile. Send the exact names and years, and they can be dropped into this grid."
+    }
   ],
   "leadership": [
     {
