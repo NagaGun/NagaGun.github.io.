@@ -20,10 +20,22 @@ document.addEventListener('DOMContentLoaded', async () => {
 function renderHero(hero) {
   const container = document.getElementById('hero');
   if (!container) return;
+  const photoSrc = hero.photo || 'assets/profile.png';
   const html = `
+    <div class="portrait-wrap reveal">
+      <span class="orbit orbit-one"></span>
+      <span class="orbit orbit-two"></span>
+      <img
+        class="portrait"
+        src="${photoSrc}"
+        alt="Portrait of Nagatanmayee Gunukula"
+        width="410"
+        height="410"
+      >
+    </div>
     <div class="hero-copy reveal" style="--delay: 120ms">
       <p class="eyebrow">${hero.eyebrow}</p>
-      <h1><span>${hero.headline.split(' ')[0]}</span> <span>${hero.headline.split(' ')[1]}</span></h1>
+      <h1><span>${hero.headline.split(' ')[0]}</span> <span>${hero.headline.split(' ').slice(1).join(' ')}</span></h1>
       <p class="hero-text">${hero.bio}</p>
       <div class="hero-focus">
         ${hero.tags.map(t => `<span>${t}</span>`).join('\n')}

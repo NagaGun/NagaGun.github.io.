@@ -1,5 +1,6 @@
 {
   "hero": {
+    "photo": "assets/profile.png",
     "eyebrow": "Computer Science at UC Santa Cruz",
     "headline": "Nagatanmayee Gunukula",
     "subheadline": "Let's build something thoughtful.",
@@ -18,10 +19,10 @@
       "description": "Applying data science, analytics, and product‑minded problem solving to turn complex datasets into clear technical insights and useful decision‑support workflows."
     },
     {
-      "date": "Current",
-      "role": "Junior Consultant",
-      "organization": "180 Degrees Consulting - Santa Cruz",
-      "description": "Supporting mission‑driven consulting work through research, analysis, strategy, and client‑facing recommendations for social impact organizations."
+      "date": "Apr 2026 - Present",
+      "role": "Growth and SWE Automation Intern",
+      "organization": "Kiku - San Francisco, CA",
+      "description": "Built an end‑to‑end Python data pipeline for outbound sales infrastructure, scaled lead generation by 3x, and redesigned the core website UI in Framer for early onboarding tests."
     },
     {
       "date": "May 2024 - Apr 2025",
@@ -36,10 +37,10 @@
       "description": "Engineered a local Neuro‑Symbolic Logic‑LM framework with Python, LangChain, and SWI‑Prolog for deterministic queries, while deploying CNN workflows through Kubernetes PVCs and self‑terminating Jobs."
     },
     {
-      "date": "Apr 2026 - Present",
-      "role": "Growth and SWE Automation Intern",
-      "organization": "Kiku - San Francisco, CA",
-      "description": "Built an end‑to‑end Python data pipeline for outbound sales infrastructure, scaled lead generation by 3x, and redesigned the core website UI in Framer for early onboarding tests."
+      "date": "Current",
+      "role": "Junior Consultant",
+      "organization": "180 Degrees Consulting - Santa Cruz",
+      "description": "Supporting mission‑driven consulting work through research, analysis, strategy, and client‑facing recommendations for social impact organizations."
     }
   ],
   "projects": [
