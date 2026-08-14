@@ -814,16 +814,16 @@ h3 {
 
 .credential-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 18px;
 }
 
 .credential-card {
   position: relative;
   overflow: hidden;
-  min-height: 250px;
+  min-height: 300px;
   border-radius: 8px;
-  padding: 24px;
+  padding: 32px;
 }
 
 .credential-card-open {

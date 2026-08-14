@@ -1,10 +1,10 @@
 {
   "hero": {
     "photo": "assets/profile.png",
-    "eyebrow": "Computer Science at UC Santa Cruz",
+    "eyebrow": "AI Engineer",
     "headline": "Nagatanmayee Gunukula",
     "subheadline": "Let's build something thoughtful.",
-    "bio": "I am a computer science student, Oracle ACE Pro, and builder across data science, cloud software, automation, AI research, and full‑stack product experiences. I like turning messy workflows into scalable systems that feel clear, useful, and fast.",
+    "bio": "I am a computer science student at UC Santa Cruz, Oracle ACE Pro, and builder across data science, cloud software, automation, AI research, and full‑stack product experiences. I like turning messy workflows into scalable systems that feel clear, useful, and fast.",
     "tags": ["Cloud Engineering", "AI Research", "Automation"],
     "buttons": [
       {"text": "View Projects", "href": "#projects"},
